@@ -1,4 +1,4 @@
-import React from "react";
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import SignIn from "./components/Login";
@@ -11,9 +11,9 @@ const App = () => {
   return (
     <Router>
       <Routes>
-      <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="signin" element={<SignIn checkLogin={(user: string, pass: string) => {
-            return user === "user" && pass === "password"
+          return user === "user" && pass === "password"
         }} />} />
         <Route path="signup" element={<SignUp />} />
         {/* <Route path="forgetpassword" element={<ForgotPasswordPage />} /> */}
