@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +12,176 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+* {
+	font-family: "Space Grotesk", sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.resumeContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-right: 50px;
+	margin-top: 20px;
+	justify-content: space-between;
+}
+form {
+	/* padding: 10px; */
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+ input {
+	 margin-bottom: 15px;
+	margin-right: 15px;
+    padding: 10px 25px;
+	border-radius: 3px;
+	outline: none;
+	border: 1px solid #ddd;
+	width: 120%;
+} 
+ label {
+
+  font-weight: 300;
+
+}
+#image {
+	display: flexbox;
+	width: 75%;
+}
+.input-group {
+	display: flex;
+	padding: auto;
+	flex-direction: column;
+  
+}
+.group1 {
+	margin-left: -10.8%;
+}
+
+.input-radio {
+	width: 20%;
+	padding: 3px;
+	display: flex;
+	flex-direction: row;
+  
+}
+.personaldetails {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.addressdetails2 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.contactdetails {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.addressdetails {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+button {
+
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	padding: 15px;
+	cursor: pointer;
+	outline: none;
+	background-color: #5d3891;
+	border: none;
+	color: #f5f5f5;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 3px;
+}
+
+/*
+
+
+.nameContainer {
+  display: flex;
+  flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 100%;
+}
+
+
+.nestedContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+.companies {
+	display: flex;
+	flex-direction: column;
+	width: 39%;
+}
+.currentInput {
+	width: 95%;
+}
+
+#addBtn {
+	background-color: green;
+	margin-right: 5px;
+}
+#deleteBtn {
+	background-color: red;
+}
+.container {
+	min-height: 100vh;
+	padding: 30px;
+}
+.header {
+	width: 80%;
+	margin: 0 auto;
+	min-height: 10vh;
+	background-color: #e8e2e2;
+	padding: 30px;
+	border-radius: 3px 3px 0 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.resumeTitle {
+	opacity: 0.6;
+}
+.headerTitle {
+	margin-bottom: 15px;
+}
+.resumeImage {
+	vertical-align: middle;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.resumeBody {
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px;
+	min-height: 80vh;
+	border: 1px solid #e0e0ea;
+}
+.resumeBodyTitle {
+	margin-bottom: 5px;
+}
+.resumeBodyContent {
+	text-align: justify;
+	margin-bottom: 30px;
+} */
+
